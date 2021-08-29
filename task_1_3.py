@@ -16,11 +16,10 @@ else:
     else:
         k = (y1 - y2) / (x1 - x2)
         b = int(y2 - k*x2)
-        if b == 0:
+        if b == 0: #Для красоты вывода результата
             print("y = %.2fx" % (k))
         else:
             print("y = %.2fx + %.2f" % (k, b))
-
 
 
 
